@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portal de Entretenimento Digital</title>
+    
+    <!-- CSS Externo Reset modelo do Eric Meyer -->
+    <link rel="stylesheet" href="reset.css">
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="estilo.css">
+
+     <!-- CSS Interno (entre as tags <style> dentro de <head>) -->
+    <style>
+        /* CSS Interno */
+        
+        /* Estilo do cabeçalho principal */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        /* Container principal usando Flexbox para organizar as tres secoes lado a lado (row)*/
+        .container {
+            display: flex;
+            flex-wrap: row;
+            gap: 2rem;
+            padding: 0 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        /* Rodapé */
+        footer {
+            background-color: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    
+<header>
+    <h1>Meu Portal de Entretenimento Digital</h1>
+    
+    <p style="font-weight: bold; font-style: italic; color: #ffffff;">
+        Seu destino para entretenimento online
+    </p>
+</header>
+    
+    <main class="container">
+        
+        <section class="section" id="filmes-series">
+            <h2 class="section-title">Filmes e Séries</h2>
+             
+            <figure class="image-container">
+                <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400&h=250&fit=crop" 
+                     alt="Séries de TV" 
+                     class="section-image">
+                <figcaption class="image-caption">As melhores Séries exclusivas</figcaption>
+            </figure>
+            
+            <figure class="image-container">
+                <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=400&h=250&fit=crop" 
+                     alt="Popcorn e cinema" 
+                     class="section-image">
+                <figcaption class="image-caption">A experiência do cinema em casa</figcaption>
+            </figure>
+            
+            <p>O mundo do entretenimento bem perto de você. Assista aos lançamentos mais recentes. De blockbusters a produções independentes, temos tudo para entreter você e sua família.</p>
+        </section>
+        
+       <section class="section" id="musica-podcasts">
+    <h2 class="section-title">Música e Podcasts</h2>
+    
+    <figure class="image-container">
+        <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=250&fit=crop" 
+             alt="Música e fones de ouvido" 
+             class="section-image">
+        <figcaption class="image-caption">Milhões de músicas disponíveis sob demanda</figcaption>
+    </figure>
+                        
+    <figure class="image-container">
+        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=250&fit=crop" 
+             alt="Instrumentos musicais" 
+             class="section-image">
+        <figcaption class="image-caption">Descubra novos artistas e gêneros musicais</figcaption>
+    </figure>
+    
+    <p>Experimente a música e os podcasts de uma nova forma. Ouça suas músicas favoritas sem interrupções, descubra novos artistas e fique por dentro das últimas tendências. Crie suas próprias playlists.</p>
+</section>
+
+        <section class="section" id="games-tecnologia">
+            <h2 class="section-title">Games e Tecnologia</h2>
+            
+            <figure class="image-container">
+                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400&h=250&fit=crop" 
+                     alt="Jogos eletrônicos" 
+                     class="section-image">
+                <figcaption class="image-caption">Jogos de última geração para todas as plataformas</figcaption>
+            </figure>
+                                       
+            <figure class="image-container">
+                <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=400&h=250&fit=crop" 
+                     alt="Realidade virtual" 
+                     class="section-image">
+                <figcaption class="image-caption">Realidade virtual e technologies emergentes</figcaption>
+            </figure>
+            
+            <p>Mergulhe no universo dos games e da tecnologia. Dos jogos multiplayer competitivos à realidade virtual, explore o que há de mais inovador no mundo gaming. Fique por dentro das novidades tecnológicas, lançamentos de hardware e as últimas tendências do setor.</p>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Meu Portal de Entretenimento Digital. Todos os direitos reservados para JFDZE.</p>
+        <P>Curso de Desenvolvimento de Sistemas ETEC - Piracicaba - S.P.</P>
+    </footer>
+    
+</body>
+</html>
